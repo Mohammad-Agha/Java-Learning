@@ -41,7 +41,7 @@ public class Array implements List {
   /**
    * Adds the elements to the array
    */
-  public void add(int... values) {
+  public void addAll(int... values) {
     for (Integer i : values) {
       this.add(i);
     }

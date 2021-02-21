@@ -4,9 +4,9 @@ public interface List {
 
   public int getSize();
 
-  public void add(int... values);
+  public void addAll(int... values);
 
-  public void add(int values);
+  public void add(int value);
 
   public void add(int index, int value);
 
